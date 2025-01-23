@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"leetcode/medium"
+	"leetcode/easy"
 )
 
 func main() {
 	// input := []int{3, 6, 9}
 	// result := easy.MinimumOperations(input)
-	input := 2
-	result := medium.NthPersonGetsNthSeat(input)
+	input := []int{2, 3, 1}
+	result := easy.SubarraySum(input)
 	fmt.Println("Result:", result)
 }
