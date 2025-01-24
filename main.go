@@ -6,9 +6,10 @@ import (
 )
 
 func main() {
-	// input := []int{3, 6, 9}
-	// result := easy.MinimumOperations(input)
-	input := "1210"
-	result := easy.DigitCount(input)
-	fmt.Println("Result:", result)
+	nums1 := []int{4, 9, 5}
+	nums2 := []int{9, 4, 9, 8, 4}
+	result := easy.Intersection(nums1, nums2)
+	for _, num := range result {
+		fmt.Println(num)
+	}
 }
