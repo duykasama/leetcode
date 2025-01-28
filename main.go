@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	input := []int{2, 4, 1}
-	result := easy.MaxProfit(input)
+	input := []int{3, 2, 4}
+	result := easy.TwoSum(input, 6)
 	fmt.Println(result)
 }
