@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"leetcode/medium"
+	"leetcode/easy"
 )
 
 func main() {
-	//input := []int{3, 2, 4}
-	//input := []string{"eat", "tea", "tan", "ate", "nat", "bat"}
-	input := []string{"", "b", ""}
-	result := medium.GroupAnagrams(input)
+	s1 := "abc"
+	s2 := "abb"
+	s3 := "ab"
+	result := easy.FindMinimumOperations(s1, s2, s3)
 	fmt.Println(result)
 }
