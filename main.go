@@ -2,13 +2,11 @@ package main
 
 import (
 	"fmt"
-	"leetcode/easy"
+	"leetcode/medium"
 )
 
 func main() {
-	s1 := "abc"
-	s2 := "abb"
-	s3 := "ab"
-	result := easy.FindMinimumOperations(s1, s2, s3)
+    input := []int{1,2,-3,-4}
+	result := medium.RearrangeArray(input)
 	fmt.Println(result)
 }
