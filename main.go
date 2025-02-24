@@ -2,17 +2,13 @@ package main
 
 import (
 	"fmt"
-	"leetcode/medium"
+	"leetcode/easy"
 )
 
 func main() {
-	input := []int{1, 2, 3, 4}
-	obj := medium.Constructor()
+	a1 := []int{5, 5, 5}
+	a2 := []int{2, 4, 2, 7}
 
-	for _, num := range input {
-		obj.Add(num)
-	}
-
-	product := obj.GetProduct(3)
-	fmt.Println(product)
+	res := easy.MinimumBoxes(a1, a2)
+	fmt.Println(res)
 }
