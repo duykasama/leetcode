@@ -6,9 +6,8 @@ import (
 )
 
 func main() {
-	a1 := []int{5, 5, 5}
-	a2 := []int{2, 4, 2, 7}
+	a1 := []int{6, 2, 6, 5, 1, 2}
 
-	res := easy.MinimumBoxes(a1, a2)
-	fmt.Println(res)
+	ans := easy.ArrayPairSum(a1)
+	fmt.Println(ans)
 }
