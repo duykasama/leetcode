@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	a1 := []int{6, 2, 6, 5, 1, 2}
+	input := 14
 
-	ans := easy.ArrayPairSum(a1)
+	ans := easy.NumberOfMatches(input)
 	fmt.Println(ans)
 }
